@@ -24,8 +24,8 @@ REPO   = "ken917-star/shanlu-legal"
 BRANCH = "main"
 FILES  = [
     "index.html", "style.css",
-    "privacy-ja.html", "privacy-en.html", "privacy-zh.html",
-    "terms-ja.html",   "terms-en.html",   "terms-zh.html",
+    "privacy-ja.html", "privacy-en.html", "privacy-zh.html", "privacy-zh-TW.html",
+    "terms-ja.html",   "terms-en.html",   "terms-zh.html",   "terms-zh-TW.html",
 ]
 
 def api(token, method, path, data=None):
