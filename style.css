@@ -1,0 +1,24 @@
+/* GitHub Pages legal docs · shared CSS */
+* { margin:0; padding:0; box-sizing:border-box }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Hiragino Sans", "PingFang SC", sans-serif;
+  line-height: 1.7;
+  color: #2c2c2c;
+  background: #fafafa;
+  padding: 40px 20px;
+}
+.container { max-width: 720px; margin: 0 auto; background:#fff; padding:48px 56px; border-radius:8px; box-shadow:0 2px 16px rgba(0,0,0,.04) }
+h1 { font-size: 28px; margin-bottom: 8px; color:#1a1a1a }
+h2 { font-size: 20px; margin: 32px 0 12px; color:#333; border-bottom: 1px solid #eee; padding-bottom: 8px }
+h3 { font-size: 16px; margin: 20px 0 10px; color:#444 }
+p, li { font-size: 14px; margin-bottom: 8px }
+ul, ol { margin-left: 24px; margin-bottom: 12px }
+table { width:100%; border-collapse:collapse; margin: 16px 0 24px; font-size: 13px }
+th, td { border:1px solid #ddd; padding: 8px 12px; text-align:left }
+th { background:#f5f5f5 }
+.warning { background:#fff4e5; border-left: 4px solid #ff9800; padding: 16px 20px; margin: 16px 0; border-radius: 4px; font-size: 13px }
+.meta { color: #888; font-size: 13px; margin-bottom: 24px }
+.lang-switch { text-align:center; margin-bottom: 32px; font-size: 13px }
+.lang-switch a { color:#1976d2; text-decoration:none; margin: 0 12px }
+.lang-switch a:hover { text-decoration:underline }
+footer { text-align:center; margin-top: 48px; padding-top: 24px; border-top: 1px solid #eee; color:#888; font-size: 12px }
